@@ -10,6 +10,26 @@ body {
 	justify-content: center;
 }
 
+.mainZoom {
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.zoomin {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.zoomin img {
+	width: 300px;
+	height: 200px;
+	transition: all 1s;
+}
+
 h1 {
 
 	font-family: courier;
@@ -20,16 +40,26 @@ h1 {
 	box-shadow: 4px 4px 5px #888888;
 }
 
-img {
+h2 {
+	font-family: courier;
+	border: 2px solid white;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+.container img {
 	width: 300px;
 	height: 200px;
 	margin: 10px;
 	transition: all 1s;
-
 }
 
 img:hover {
 	transform: scale(1.2);
+}
+
+.zoomin:hover img{
+	transform: scale(1.5);
 }
 
 button {
