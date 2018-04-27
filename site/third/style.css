@@ -1,6 +1,6 @@
 body {
-	background-image: url(bgimg.jpg);
-	background-size: cover;
+	background-image: url(img/bgimg.jpg);
+	/*background-size: cover;*/
 	color: white
 }
 
@@ -11,6 +11,7 @@ body {
 }
 
 h1 {
+
 	font-family: courier;
 	font-size: 2em;
 	border: 2px solid white;
@@ -28,7 +29,7 @@ img {
 }
 
 img:hover {
-	transform: rotateY(180deg);
+	transform: scale(1.2);
 }
 
 button {
