@@ -1,0 +1,29 @@
+.card-container {
+  height: 500px;
+  position: relative;
+  width: 800px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
+}
+img {
+  height: 500px;
+  width: 800px;
+}
